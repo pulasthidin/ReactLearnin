@@ -41,7 +41,6 @@ function NameList(){
             "picture":{
                 "medium":"https://randomuser.me/api/portraits/med/women/66.jpg",
             }
-
         }
 ];
 
