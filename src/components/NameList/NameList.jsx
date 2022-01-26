@@ -62,9 +62,9 @@ function NameList(){
 
     return (
     <React.Fragment> {/* similar to div tag */}
-    <h1>Name List</h1>
-    <hr />
-    {NameListComponent()}
+    <div className="container mt-4">
+        <ul className="list-group">{NameListComponent()}</ul>
+    </div>
     </React.Fragment>
     );
 }
